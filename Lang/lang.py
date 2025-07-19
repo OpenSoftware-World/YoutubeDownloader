@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from PyAppDevKit.LibFunc.pyappdevkit import error_msg
+from PyAppDevKit.pyappdevkit import error_msg
 
 lang = str(input('Which language (English or Turkish)?: '))
 
@@ -19,16 +19,13 @@ if lang == "English" or lang == "EN" or lang == "en":
     audiodownload_link_input_txt = "Please Paste the Audio Link you want to download: "
     audio_downloaded_msg = "Audio File Named Downloaded."
     video_search_input_txt = "Type the name of the Video you want to search: "
-    option_one = "1- Video"
-    option_two = "2- Music"
-    option_three = "3- Playlist"
+    option_one = "1- Download Video"
+    option_two = "2- Download Music"
+    option_three = "3- Download Playlist"
     option_four = "4- Video Search"
     option_five = "5- Exit"
     choose_txt = "Please Make Your Choice: "
-    exitselectdialog_txt = "Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "
-    usertimedialog_txt = "After how many seconds should the program be closed?: "
-    exitdialog_txt = "Exit program..."
-    errormsgdialog_txt = "Invalid Command!"
+    exit_lang = "EN"
 elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     music_file_txt = "Müzik"
     video_file_txt = "Video"
@@ -44,15 +41,12 @@ elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     audiodownload_link_input_txt = "Lütfen indirmek istediğiniz Ses Bağlantısını Yapıştırın: "
     audio_downloaded_msg = "Adlı ses dosyası indirilmiştir."
     video_search_input_txt = "Aramak istediğiniz Videonun adını yazın: "
-    option_one = "1- Video"
-    option_two = "2- Müzik"
-    option_three = "3- Oynatma listesi"
+    option_one = "1- Video indir"
+    option_two = "2- Müzik indir"
+    option_three = "3- Oynatma listesi indir"
     option_four = "4- Video Arama"
     option_five = "5- Çıkış"
     choose_txt = "Lütfen Seçiminizi Yapın: "
-    exitselectdialog_txt = "Programdan çıkış yöntemini seçin (0: Diyalog ve Zaman girişi, 1: Yalnızca Zaman girişi, 2: Yalnızca Diyalog girişi, 3: Normal çıkış (eski stil)): "
-    usertimedialog_txt = "Program kaç saniye sonra kapatılsın?: "
-    exitdialog_txt = "Programdan çıkış yapılıyor..."
-    errormsgdialog_txt = "Geçersiz Komut!"
+    exit_lang = "TR"
 else:
-     error_msg("Invalid language selection!")
+     error_msg("Invalid language selection!","","")

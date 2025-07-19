@@ -31,7 +31,7 @@ sudo apt install git
 git clone https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader.git
 cd LinuxUsersLinuxMint-YoutubeDownloader
 pip install -r requirements.txt
-python YoutubeDownloader.py
+python app.py
 ````
 
 

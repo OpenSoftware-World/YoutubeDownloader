@@ -28,10 +28,10 @@ sudo apt install git
 
 #### Downloading and Running the Program
 ````
-git clone https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader.git
-cd LinuxUsersLinuxMint-YoutubeDownloader
+git clone https://github.com/ahmetozmtn/YoutubeDownloader.git
+cd YoutubeDownloader
 pip install -r requirements.txt
-python app.py
+python YouTubeDownloader.py
 ````
 
 

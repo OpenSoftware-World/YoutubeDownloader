@@ -1,7 +1,7 @@
 from AppFunction.appfunction import *
 
 while True:
-    tprint("Lxlm-YTdownloader")
+    tprint("YT-DL")
     print("""
 -----------------------------------------------------------------------
 {0}

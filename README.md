@@ -41,4 +41,4 @@ python YouTubeDownloader.py
 * [art](https://github.com/sepandhaghighi/art)
 * [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
 * [os](https://github.com/python/cpython/blob/main/Lib/os.py)
-* [PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
+* [PyAppDevKit](https://github.com/OpenSoftware-World/PyAppDevKit)
